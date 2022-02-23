@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<div class="contact-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">	
+					<div class="heading-title text-center">
+						<h2>Contact</h2>
+						<p>Renseigner les differents champs</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<!-- <?php 
+						var_dump($_POST);die;
+
+					 ?> -->
+					<form id="" method="post" action="php/tesmail.php">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="form-group">
+									<input type="text" class="form-control" id="name" name="name" placeholder="Entrer votre nom" required data-error="Please enter your name">
+									<div class="help-block with-errors"></div>
+								</div>                                 
+							</div>
+							<div class="col-md-12">
+								<div class="form-group">
+									<input type="text" placeholder="E-mail" id="email" class="form-control" name="email" required data-error="Please enter your email">
+									<div class="help-block with-errors"></div>
+								</div> 
+							</div>
+							<div class="col-md-12">
+								<div class="form-group">
+									<input type="text" class="form-control" id="number" name="number" placeholder="Numero de telephone" required data-error="Please enter your number">
+									<div class="help-block with-errors"></div>
+								</div> 
+							</div>
+							<div class="col-md-12">
+								<div class="form-group">
+									<input type="text" class="form-control" id="budget" name="budget" placeholder="Budget" required data-error="Please enter your number">
+									<div class="help-block with-errors"></div>
+								</div> 
+							</div>
+							<div class="col-md-12">
+								<div class="form-group"> 
+									<textarea class="form-control" id="message" placeholder="Décrivez nous brièvement votre projet : mariage? Renouvellement de vœux? Enterrement de vie de jeunes filles. Nombre d’invités
+									" name="message" rows="4" data-error="Write your message" required></textarea>
+									<div class="help-block with-errors"></div>
+								</div>
+								<div class="submit-button text-center">
+									<button class="btn btn-common" id="submit" name="submit" type="submit">Envoyer</button>
+									<div id="msgSubmit" class="h3 text-center hidden"></div> 
+									<div class="clearfix"></div> 
+								</div>
+							</div>
+						</div>            
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+</body>
+</html>
